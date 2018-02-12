@@ -14,7 +14,7 @@ class App extends Base {
   // Laddar in information från questions.json så att vi kan använda den här
   loadJSON() {
     let that = this;
-    $.getJSON('../../json/questions.json', function (data) {
+    $.getJSON('/personlighetstest/json/questions.json', function (data) {
       that.questions = data.questions;
       that.sumSources = data.sumSources;
     });
