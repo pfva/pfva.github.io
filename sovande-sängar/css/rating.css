@@ -1,0 +1,19 @@
+.rating-5 {
+  content: '\f005 ' '\f005 ';
+}
+.rating-4 {
+  content: '\f005 ' '\f005 ';
+}
+.rating-3 {
+  content: '\f005 ' '\f005 ';
+}
+.rating-2 {
+  content: '\f005 ' '\f005 ';
+}
+.rating-1 {
+  content: '\f005 ' '\f005 ';
+}
+[class*='rating-'] {
+  position: relative;
+  display: block;
+}

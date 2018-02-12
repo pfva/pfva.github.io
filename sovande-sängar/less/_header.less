@@ -1,0 +1,173 @@
+header.site-header {
+	background-color: #fff;
+
+	// Placeholder-div för logo
+	.logo {
+		float: left;
+		margin-left: 10px;
+		margin-bottom: 5px;
+		height:200px;
+		width: auto;
+		@media (max-width: @tablet){
+			height: 160px;
+			width: auto;
+			margin-bottom: 5px;
+		}
+	}
+
+	// Sidans header-text ("Sovande sängar")
+	.logo-text {
+		display: inline;
+		line-height: 150px;
+		font-family: 'Satisfy', serif;
+		font-size: 72px;
+		color: @header-text-color;
+	}
+}
+
+nav {
+	clear: both;
+	margin: auto;
+	background-color: @navbar-color;
+	height: 50px;
+	z-index: 1;
+	@media (max-width: @tablet){
+		&::before {
+			content:"menu";
+			display: block;
+			color:#fff;
+			padding: 12px 15px;
+			font-size: 25px;
+			text-transform: uppercase;
+		}
+	}
+	ul.topNav {
+		list-style-type: none;
+		overflow: hidden;
+		position: relative;
+		@media (max-width: @tablet){
+			display: none;
+			background-color: #0c547f;
+		}
+		li {
+			float: left;
+			display: block;
+			text-align: left;
+			background-color: #0C547F;
+			width: auto;
+			display: block;
+			border-right: 1px solid #2d405c;
+			@media (max-width: @tablet){
+				float: none;
+				border-right: none;
+				border-top: 1px solid #2d405c;
+			}
+			a {
+				display: block;
+				padding: 0px 20px 0px 20px;
+				line-height: 50px;
+				text-decoration: none;
+				font-family: 'Ubuntu', sans-serif;
+				color: @navbar-text-color;
+				text-transform: uppercase;
+				font-size: 14px;
+				@media (max-width: @tablet){
+					display: block;
+				}
+				&:hover {
+					color: #d3d3d3;
+				}
+				&.toggle-ul {
+					cursor: pointer;
+				}
+			}
+			> ul {
+				display: none;
+				position: relative;
+				li {
+					border-top: 1px solid #2d405c;
+					border-right: none;
+					float: none;
+					@media (max-width: @tablet){
+						padding-left: 15px;
+						border-top: 1px solid #182436;
+						background-color: #08456a;
+						a {
+							&::before {
+								content: '- ';
+							}
+						}
+					}
+				}
+			}
+			&:hover {
+				background-color: #135F8B;
+				ul {
+					// Only allow display on hover on computers
+					@media (min-width: @tablet){
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	nav.sticky {
+		button {
+			@media (max-width: @tablet){
+				color: #000;
+				position: absolute;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				padding: 5px 15px;
+				font-size: 30px;
+			}
+		}   
+	}
+
+		.icon {
+			display: none;
+			@media (max-width: @tablet){
+				display: block;
+				position: absolute;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				width: 50px;
+				font-size: 30px;
+				line-height: 30px;
+				color: #fff;
+				background: #2875a3;
+				border: none;
+			}
+		}
+	}
+		
+
+		&.sticky {
+			position: sticky;
+			position: -webkit-sticky;
+			top: 0;
+		}
+
+		ul {
+			list-style-type: none;
+			overflow: hidden;
+		}
+
+/* Annat som fanns i header.less-filen sedan tidigare 
+h1 {
+	background-color:lightgray;
+	border:2px solid black;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+	width: 100%;
+	background-color: gray;
+	border: 2px solid black;
+}
+*/

@@ -1,0 +1,82 @@
+
+// Here we send in the amount of @columns we want and the @total amount of colums it's going to print.
+// We figure out @total in the bottom with this .grid-loop(@columns - 1, @total);
+.grid-loop(@columns, @total: @columns) when (@columns > 0) {
+
+  .grid-xs-@{columns} {
+    // Width is figured out with @columns minus the current @total value
+    width: percentage(@columns / @total);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .grid-xs-offset-@{columns} {
+    margin-left: percentage(@columns / @total);
+  }
+
+  @media (min-width: @smartphone) {
+    .grid-sm-@{columns} {
+      width: percentage(@columns / @total);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .grid-sm-offset-@{columns} {
+      margin-left: percentage(@columns / @total);
+    }
+  }
+
+  @media (min-width: @tablet) {
+    .grid-md-@{columns} {
+      width: percentage(@columns / @total);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .grid-md-offset-@{columns} {
+      margin-left: percentage(@columns / @total);
+    }
+  }
+
+  @media (min-width: @laptop) {
+    .grid-lg-@{columns} {
+      width: percentage(@columns / @total);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .grid-lg-offset-@{columns} {
+      margin-left: percentage(@columns / @total);
+    }
+  }
+
+  @media (min-width: @largeScreen) {
+    .grid-xl-@{columns} {
+      width: percentage(@columns / @total);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .grid-xl-offset-@{columns} {
+      margin-left: percentage(@columns / @total);
+    }
+  }
+  
+  // Everytime we call the grid loop we remove 1 after it's done
+  .grid-loop(@columns - 1, @total);
+}
+
+// Apply the mixin, for 24 columns
+.grid-loop(24);
+
+// styles
+[class*='grid-'] {
+  position: relative;
+  float: left;
+  display: block;
+}
+
+// Clears floats
+.clearfix {
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
