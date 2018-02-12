@@ -29,7 +29,7 @@ class Game {
       });
 
      if(input1.replace(/^\s+|\s+$/g, "") && input2.replace(/^\s+|\s+$/g, "")){
-        location.href = 'fyra-i-rad/spela.html';
+        location.href = '/fyra-i-rad/spela.html';
       }
       else if(input1.replace(/^\s+|\s+$/g, "")){
         $('#input-1').removeClass('form-error');
