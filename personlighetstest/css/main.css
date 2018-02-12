@@ -1,7 +1,7 @@
 /* 	Photo by Matheus Ferrero on Unsplash 
 	https://unsplash.com/photos/TkrRvwxjb_8 */
 .jumbotron {
-	background-image: url(../imgs/jumbotron-background.jpg);
+	background-image: url(/personlighetstest/imgs/jumbotron-background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -34,7 +34,7 @@
 }
 
 .bg-blurred {
-	background-image: url(../imgs/jumbotron-background-blurred.jpg);
+	background-image: url(/personlighetstest/imgs/jumbotron-background-blurred.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
