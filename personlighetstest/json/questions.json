@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "q": "Det känns bäst när jag kan...",
+      "a": [
+        "hålla mitt mest privata för mig själv",
+        "dela med mig ganska fritt av mina mest privata tankar och känslor"
+      ],
+      "id": 1
+    },
+    {
+      "q": "Jag föredrar när diskussioner på möten...",
+      "a": [
+        "får löpa tills ämnet är uttömt",
+        "respekterar anslagen tid"
+      ],
+      "id": 2
+    },
+    {
+      "q": "Jag gillar att...",
+      "a": [
+        "analysera situationer, tänka efter",
+        "uppleva situationer, känna efter"
+      ],
+      "id": 3
+    },
+    {
+      "q": "Jag gillar...",
+      "a": [
+        "de möjligheter förändringar innebär",
+        "den säkerhet som stabilitet innebär"
+      ],
+      "id": 4
+    },
+    {
+      "q": "Jag gillar att...",
+      "a": [
+        "befrämja det rationella inför beslut",
+        "hjälpa fram andras känslor inför beslut"
+      ],
+      "id": 5
+    },
+    {
+      "q": "Jag gillar...",
+      "a": [
+        "det fantasifulla och lite overkliga",
+        "de konkreta detaljerna"
+      ],
+      "id": 6
+    },
+    {
+      "q": "Jag trivs bäst som...",
+      "a": [
+        "lite tillbakadragen",
+        "personen i händelsernas centrum"
+      ],
+      "id": 7
+    },
+    {
+      "q": "Jag tycker bäst om...",
+      "a": [
+        "teorier och abstraktion",
+        "det konkreta och faktiska"
+      ],
+      "id": 8
+    },
+    {
+      "q": "Det känns bäst med...",
+      "a": [
+        "egna inre tankar och känslor",
+        "gemensamma aktiviteter med andra"
+      ],
+      "id": 9
+    },
+    {
+      "q": "Jag vill bli betraktad som en...",
+      "a": [
+        "tänkande människa",
+        "kännande människa"
+      ],
+      "id": 10
+    },
+    {
+      "q": "Jag föredrar att...",
+      "a": [
+        "planera löpande och först när det behövs",
+        "direkt planera utifrån gissningar och uppskattningar"
+      ],
+      "id": 11
+    },
+    {
+      "q": "Jag trivs bäst tillsammans med personer som fokuserar på...",
+      "a": [
+        "det logiska",
+        "känslor"
+      ],
+      "id": 12
+    },
+    {
+      "q": "Jag tycker bäst om att arbeta med...",
+      "a": [
+        "fria tankar",
+        "fakta"
+      ],
+      "id": 13
+    },
+    {
+      "q": "Jag jobbar helst utifrån...",
+      "a": [
+        "rationella resonemang",
+        "min egen tro och \"magkänsla\""
+      ],
+      "id": 14
+    },
+    {
+      "q": "Jag tycker det är bäst om man... ",
+      "a": [
+        "slipper fasta tids­gränser",
+        "har en tidsplan som man kan följa"
+      ],
+      "id": 15
+    },
+    {
+      "q": "Jag tycker bäst om...",
+      "a": [
+        "idéer",
+        "fakta"
+      ],
+      "id": 16
+    },
+    {
+      "q": "Jag tycker bäst om...",
+      "a": [
+        "att fundera på egen hand",
+        "intensiva och kreativa möten med andra"
+      ],
+      "id": 17
+    },
+    {
+      "q": "Jag tycker bäst om när överenskommelser och beslut...",
+      "a": [
+        "sakta växer fram inom gruppen i gruppens takt",
+        "drivs fram av mig så att jag vet att beslut verkligen tas"
+      ],
+      "id": 18
+    },
+    {
+      "q": "Jag föredrar...",
+      "a": [
+        "bekanta personer (eller att vara själv)",
+        "nya bekantskaper"
+      ],
+      "id": 19
+    },
+    {
+      "q": "Jag föredrar att...",
+      "a": [
+        "ta saker och problem som de kommer",
+        "försöka förutse och planera"
+      ],
+      "id": 20
+    },
+    {
+      "q": "Jag tycker bäst om att bli beskriven som en...",
+      "a": [
+        "intuitiv och fantasi­full person",
+        "noggrann person med koll på faktaunderlaget"
+      ],
+      "id": 21
+    },
+    {
+      "q": "Jag vill fatta beslut baserat på främst...",
+      "a": [
+        "fakta och logik",
+        "sunt förnuft och vad som känns rätt"
+      ],
+      "id": 22
+    },
+    {
+      "q": "Jag tycker bäst om att fatta beslut...",
+      "a": [
+        "utan att diskutera med andra",
+        "efter att ha kollat av med andras upp­fatt­ningar"
+      ],
+      "id": 23
+    },
+    {
+      "q": "Jag föredrar...",
+      "a": [
+        "troliga helheter och sammanhang",
+        "faktiska detaljer och fakta"
+      ],
+      "id": 24
+    }
+  ],
+  "sumSources": {
+    "introvertExtrovert": {
+      "questionIds": [
+        1,
+        7,
+        9,
+        17,
+        19,
+        23
+      ]
+    },
+    "intuitionSensing": {
+      "questionIds": [
+        6,
+        8,
+        13,
+        16,
+        21,
+        24
+      ]
+    },
+    "thinkingFeeling": {
+      "questionIds": [
+        3,
+        5,
+        10,
+        12,
+        14,
+        22
+      ]
+    },
+    "perceptionJudgement": {
+      "questionIds": [
+        2,
+        4,
+        11,
+        15,
+        18,
+        20
+      ]
+    }
+  },
+  "resultConditions": {
+    "introvertExtrovert <= 8": "veryIntrovert",
+    "introvertExtrovert >= 9 && introvertExtrovert <= 29": "introvert",
+    "introvertExtrovert >= 30 && introvertExtrovert <= 33": "mildlyIntrovert",
+    "introvertExtrovert >= 34 && introvertExtrovert <= 36": "mildlyExtrovert",
+    "introvertExtrovert >= 37 && introvertExtrovert <= 57": "extrovert",
+    "introvertExtrovert >= 58": "veryExtrovert",
+    "intuitionSensing <= 8": "veryIntuition",
+    "intuitionSensing >= 9 && intuitionSensing <= 29": "intuition",
+    "intuitionSensing >= 30 && intuitionSensing <= 33": "mildlyIntuition",
+    "intuitionSensing >= 34 && intuitionSensing <= 36": "mildlySensing",
+    "intuitionSensing >= 37 && intuitionSensing <= 57": "sensing",
+    "intuitionSensing >= 58": "verySensing",
+    "thinkingFeeling <= 8": "veryThinking",
+    "thinkingFeeling >= 9 && thinkingFeeling <= 29": "thinking",
+    "thinkingFeeling >= 30 && thinkingFeeling <= 33": "mildlyThinking",
+    "thinkingFeeling >= 34 && thinkingFeeling <= 36": "mildlyFeeling",
+    "thinkingFeeling >= 37 && thinkingFeeling <= 57": "feeling",
+    "thinkingFeeling >= 58": "veryFeeling",
+    "perceptionJudgement <= 8": "veryPerception",
+    "perceptionJudgement >= 9 && perceptionJudgement <= 29": "perception",
+    "perceptionJudgement >= 30 && perceptionJudgement <= 33": "mildlyPerception",
+    "perceptionJudgement >= 34 && perceptionJudgement <= 36": "mildlyJudgement",
+    "perceptionJudgement >= 37 && perceptionJudgement <= 57": "judgement",
+    "perceptionJudgement >= 58": "veryJudgement"
+  }
+}
