@@ -173,7 +173,7 @@ class App extends Base {
             <p class="card-text float-left pb-3"><a href="https://www.16personalities.com/sv/personlighetstyper" target="_blank">Läs mer om de olika personlighetstyperna här</a></p>
           </div> 
           <div class="col-6">
-            <p class="card-text float-right pb-3">Vill du göra om testet igen? <a href="/">Klicka här!</a></p>
+            <p class="card-text float-right pb-3">Vill du göra om testet igen? <a href="/personlighetstest/index.html">Klicka här!</a></p>
           </div>
         </div> 
       </div>
