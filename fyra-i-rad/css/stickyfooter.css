@@ -1,0 +1,36 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height 
+     or slightly more for more space before footer
+  */
+  margin-bottom: 110px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+}
+/*
+  Other footer height for Boostrap xs, sm
+  (for breakpoint see: https://getbootstrap.com/css/)
+*/
+@media screen and (min-width: 769px) and (max-width: 937px) {
+  footer {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+    body {
+      margin-bottom:200px;
+    }
+    footer {
+      height: 185px;
+    }
+}

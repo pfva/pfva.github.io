@@ -1,0 +1,262 @@
+/*	Highscore.html  */
+
+.highscore-list li:nth-child(1) .trophy:before{
+	font-family: 'FontAwesome';
+	content: "\f091";
+	font-size: 22px;
+	color: gold;
+}
+.highscore-list li:nth-child(2) .trophy:before{
+	font-family: 'FontAwesome';
+	content: "\f091";
+	font-size: 22px;
+	color: #888;
+}
+.highscore-list li:nth-child(3) .trophy:before{
+	font-family: 'FontAwesome';
+	content: "\f091";
+	font-size: 22px;
+	color: #CD7F32;
+}
+.highscore-list li:nth-child(n+4){
+	padding-left: 3rem;
+
+}
+.fa-gamepad {
+	color: white;
+}
+.fa-trophy {
+	color: gold;
+}
+.fa-book{
+	color: darkblue;
+}
+.fa-star{
+	color: #2f77ed;
+}
+.logo{
+	width: 80px;
+}
+.modal-body{
+	line-height: 200%;
+}
+
+/*	Blandat		*/
+.border-radius{
+	border-radius: 15px;
+}
+.border-radius2{
+	border-radius: 23px;
+}
+body {
+	background-color: #a1c4fc;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+nav, .bg-jumbotron {
+	background-color: #2f77ed;
+}
+.nav-link{
+	font-size: 1.3rem;
+}
+.card {
+	background-color: #a1c4fc;
+}
+footer {
+	background-color: #2f77ed;
+	color: #fff;
+}
+.text-jumbo{
+  color: gold;
+}
+.text-andra-spel {
+	color: #aa0a09;
+}
+.jumbotron a.btn, .btn-start{
+	background-color: #aa0a09;
+}
+.jumbotron a.btn:hover {
+	background-color: #E63236;
+	color: gold;
+}
+.start-bild{
+	width: 85%;
+}
+.no-border{
+	border: none;
+}
+.jumbotron{
+	padding: 4rem 1rem;
+}
+.jumbotron2{
+	padding: 10rem 2rem;
+}
+h1{
+	font-size: 4.3vw;
+}
+.highscore-h1{
+	font-size: 3rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px){
+  .start-bild {
+    width: 125%;
+	}
+  h1{
+    font-size: 6vw;
+  }
+  .lead{
+    font-size: 4.5vw;
+  }
+  h3{
+  	font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767.5px){
+  h1{
+  	font-size: 3.3vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.5px){
+  h1{
+  	font-size: 3.5vw;
+  }
+}
+h2 {
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+h2.modal-title{
+	margin-left: 20px;
+}
+.andra-spel{
+	max-height: 180px;
+}
+
+/* Spelregler */
+.youtubes{
+	list-style-type: none;
+}
+.modal button span {
+	font-size: 250%;
+}
+
+/* Highscore */
+.highscore-list .list-group-item {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.highscore-list .list-group-item:nth-child(odd) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.highscore-list .list-group-item:first-child {
+	border-radius: 0;
+}
+
+.highscore-list .list-group-item:last-child {
+	border-radius: 0;
+}
+
+/* Spela */
+.board-holder{
+  overflow: hidden;
+	margin: 0 auto;
+}
+#board{
+	width: 1148px;
+	height: 798px;
+	transform-origin: 0 0;
+  display: none;
+}
+.hover-brick-row, .board-row{
+  width: 798px;
+}
+.board-col , .hover-brick-col{
+	background-color: blue;
+	padding: 7px;
+  float: left;
+}
+.hover-brick-col{
+	background-color: transparent;
+}
+.circle{
+	background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #0000aa;
+}
+.hover-brick-col > *{
+	background-color: transparent;
+	border:none;
+}
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+.transparent{
+	background-color: transparent;
+}
+.blinking{
+	animation: blink-animation 0.5s  infinite;
+  -webkit-animation: blink-animation 0.5s  infinite;
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    background-color: white;
+  }
+}
+
+.display-players{
+	width: 350px;
+	border-radius: 0;
+	float: right;
+	top:115px;
+}
+
+@media screen and (max-width: 768px){
+	.display-players{
+		width: 798px;
+		float: none;
+		top:0;
+		display: block;
+	}
+
+	.display-players .card-body{
+		width: 260.5px;
+		display: inline-block;
+	}
+
+	.display.players .card-title{
+		font-size: 40px;
+	}
+
+	#board{
+		width: 798px;
+	}
+}
+.active-player{
+	box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.4);
+	background-color: #cdcdcd;
+}
+.player-brick{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border:1px solid black;
+}
+
+/* namn.html */
+.red-circle{
+	color: red;
+}
+.yellow-circle{
+	color: yellow;
+}
+.form-error{
+	border: 1px solid red;
+	color: black;
+}

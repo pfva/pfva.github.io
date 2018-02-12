@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Fyra-i-rad</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/libs/bootstrap-4-beta.css">
+    <!-- Application specific CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Sticky footer -->
+    <link rel="stylesheet" href="/css/stickyfooter.css">
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container-fluid mb-5">
+      <div class="row">
+        <nav class="col-12 navbar navbar-expand-md navbar-dark">
+          <a href="/"><img class="logo mr-4 mb-3 mb-md-0" src="/imgs/4-i-rad-logo.png" alt="4 i rad-logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item pr-2">
+                <a class="nav-link" href="/">Start</a>
+              </li>
+              <li class="nav-item pr-2">
+                <a class="nav-link" href="/namn.html">Spela<i class="pl-2 fa fa-lg fa-gamepad" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item pr-2">
+                <a href="#" class="nav-link nav-modal" data-toggle="modal" data-target="#exampleModal">Spelregler<i class="pl-2 fa fa-lg fa-book" aria-hidden="true"></i></a>
+              <li class="nav-item active pr-2">
+                <a class="nav-link" href="/high-score.html">Highscore<i class="pl-2 fa fa-lg fa-trophy" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h1 class=" highscore-h1 mb-5 text-center"><i class="fa fa-trophy trophy-big" aria-hidden="true"></i> Highscore <i class="fa fa-trophy trophy-big" aria-hidden="true"></i></h1>
+          <h3 class="d-inline-block ml-5 pl-5 font-weight-bold text-andra-spel">Namn</h3>
+          <h3 class="d-inline-block float-right mr-5 pr-4 font-weight-bold text-andra-spel">Rundor</h3>
+            <div class="jumbotron highscore-jumbotron pt-3">
+              <ul class="list-group highscore-list">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <div class="row mt-4">
+        <div class="col-md-3 text-center">
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Adress: Brickvägen 4</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <p><i class="fa fa-envelope-o" aria-hidden="true"></i> Email: <a class="text-white" href="mailto:4irad@groupa.nu">4irad@groupa.nu</a></p>
+        </div>
+        <div class="col-md-3 text-center">
+          <p><i class="fa fa-phone" aria-hidden="true"></i> Telefon: 044-444 444</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <p><small><i class="fa fa-sm fa-copyright" aria-hidden="true"></i> A-TEAM</small></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript libraries -->
+    <script src="/jsonflex.js"></script>
+    <script src="/js/libs/jquery-3.2.1.js"></script>
+    <script src="/js/libs/popper-1.11.0.js"></script>
+    <script src="/js/libs/bootstrap-4-beta.js"></script>
+    <!-- Application specific JavaScript -->
+    <script src="/js/spelregler.js"></script>
+    <script src="/js/classes/game.class.js"></script>
+    <script src="/js/classes/board.class.js"></script>
+    <script src="/js/classes/player.class.js"></script>
+    <script src="/js/classes/computer.class.js"></script>
+    <script src="/js/classes/highscore.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
