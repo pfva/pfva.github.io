@@ -24,9 +24,9 @@ class User {
 
   // Sparar användares svar till answers.json
   saveAnswers() {
-    JSON.save('answers', {
-      answers: this.answers,
-      score: this.score,
-    });
+    // JSON._save('answers', {
+    //   answers: this.answers,
+    //   score: this.score,
+    // });
   }
 }
