@@ -1,0 +1,44 @@
+/* Sticky footer (tagen dels från Bootstraps hemsida, dels från klassbloggen)
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+
+  body {
+    margin-bottom: 300px;
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 250px;
+      line-height: 60px;
+      background-color: #fff;
+
+      .footer-container {
+        width: auto;
+        padding: 0 30px;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Annan footer-height för större skärmar */
+@media screen and (min-width: 768px) {
+  
+  html{
+
+    body {
+      margin-bottom: 180px;
+
+      .footer {
+        height: 130px;
+      }
+    }
+  }
+}
