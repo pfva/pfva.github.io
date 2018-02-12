@@ -1,0 +1,136 @@
+body {
+	background-color: #ECF0F1;
+	font-family: Bitter, "Times New Roman", serif;
+}
+
+/* --- Navigation --- */
+header {
+	background-color: #3498DB;
+	border-bottom: 2px solid #2C3E50;
+	width: 85%;
+	margin: 0 auto;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	position: sticky;
+	top: 0;
+}
+
+ul {
+	overflow: hidden;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+	border-right: 1px solid #99ccff;
+	transition: background-color 0.5s;
+}
+
+nav li:first-child {
+	margin-left: 63px;
+	border-left: 1px solid #99ccff;
+}
+
+nav li.active {
+  	background-color: #2C3E50;
+}
+
+nav li:hover {
+  	background-color: #2980B9;
+}
+
+nav li.active:hover {
+	background-color: #2C3E50;
+}
+
+nav li a {
+	display: block;
+	padding: 20px 30px;
+	color: #ECF0F1;
+	text-decoration: none;
+}
+
+nav ul:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+#float-right {
+	float: right;
+	margin-right: 63px;
+	border-left: 1px solid #99ccff;
+}
+
+/* --- Main content --- */
+main {
+	width: 75%;
+	margin: 20px auto;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid DarkRed;
+}
+
+section {
+	background-color: #E0E0E0;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px grey;
+	overflow: hidden;
+}
+
+section img {
+	width: 200px;
+	height: 200px;
+	float: right;
+	border: 5px solid #ECF0F1;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px grey;
+	margin-left: 20px;
+}
+
+section p {
+	margin-bottom: 30px;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	line-height: 130%;
+}
+
+/* --- Footer --- */
+footer {
+	clear: both;
+	background-color: #2C3E50;
+}
+
+footer p {
+	color: #ECF0F1;
+	padding: 20px;
+	text-align: center;
+}
+
+#popup {
+	width: 200px;
+	height: 200px;
+	opacity: 0.1;
+	z-index: 5;
+	position: fixed;
+	bottom: -150px;
+	right: 0;
+	transition: bottom 1.5s, opacity 1.5s;
+}
+
+#popup:hover {
+	position: fixed;
+	bottom: -50px;
+	opacity: 1;
+}
